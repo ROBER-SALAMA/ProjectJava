@@ -13,10 +13,10 @@ public class ComunDB {
     }
     static int TIPODB = TipoDB.SQLSERVER; //Propiedad para el tipo de gestor de base de datos que estamos utilizando
     //La propiedad "connectionUrl" es para almacenar el string de conexion a la base de datos actual 
-    static String connectionUrl = "jdbc:sqlserver://BDejemploxd.mssql.somee.com:1433;"
-            + "database=BDejemploxd;"
-            + "user=roberSalama_SQLLogin_1;"
-            + "password=f56bcx1qwt;"
+    static String connectionUrl = "jdbc:sqlserver://BDejemplo1706.mssql.somee.com;"
+            + "database=BDejemplo1706"
+            + "user=Jacquel17_SQLLogin_1;"
+            + "password=uxrexfxlak;"
             + "loginTimeout=30;encrypt=true;trustServerCertificate=true;";
     
     // Documentacion para entender por que se esta utilizando throws SQLException
