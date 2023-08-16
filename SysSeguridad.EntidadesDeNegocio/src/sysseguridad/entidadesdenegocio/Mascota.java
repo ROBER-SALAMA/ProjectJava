@@ -9,6 +9,10 @@ package sysseguridad.entidadesdenegocio;
  * @author jacqu
  */
 public class Mascota {
+
+    public static void setUsuario(Usuario usuario) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     private int Id;
     private int IdUsuario;
     private String Nombre;
@@ -105,6 +109,11 @@ public class Mascota {
     public void setPropietario(String Propietario) {
         this.Propietario = Propietario;
     }      
+
+    public static void getUsuario(Usuario Usuario) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
 }
 
 
